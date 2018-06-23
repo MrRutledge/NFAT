@@ -2,5 +2,7 @@ import java.util*;
 
 public class GetOut{
 
-         Private  String " Sustrans":
+         private String  Sustrans;
+		 private int     Numbers; // Numbers 
+		 private int     Age; // age of the person 
 }
