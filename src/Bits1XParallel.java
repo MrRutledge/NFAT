@@ -3,14 +3,14 @@
  * recognizes strings with 0 as the next-to-last
  * character.
  */
-public class Bits1XParallel{
-
+public class Bits1XParallel {
+//the block chain in the midst
   /*
    * The current set of states, encoded bitwise: 
    * state i is represented by the bit 1<<i.
    */
   private int stateSet;
-
+// This programme has been changed slightly however I am going to do my best to try to make is work
 
   /**
    * Reset the current state set to {the start state}.
@@ -18,6 +18,7 @@ public class Bits1XParallel{
   public void reset() {
     stateSet = 1<<0; // {q0}
   }
+  
   /*
    * The transition function represented as an array.
    * The set of next states from a given state s and 
