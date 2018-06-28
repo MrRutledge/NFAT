@@ -18,11 +18,7 @@ public class Bits1XParallel {
   public void reset() {
     stateSet = 1<<0; // {q0}
   }
-  //
   
-  // this is just an update on the readme.
-
-
   /*
    * The transition function represented as an array.
    * The set of next states from a given state s and 
@@ -64,10 +60,10 @@ public class Bits1XParallel {
   /**
    * Test whether the NFA accepted the string.
    * @return true if the final set includes 
-   *         an accepting state.
+   * an accepting state.
    */
   public boolean accepted() {
     return (stateSet & (1<<2))!=0; // true if q2 in set
   }
 }
-
+//The whole programme was written to confirm that the text entered us a standard input and not a non standard
